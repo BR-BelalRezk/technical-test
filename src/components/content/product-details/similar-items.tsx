@@ -148,11 +148,11 @@ export default function SimilarItems() {
 
           <div className="flex gap-5 items-center justify-center">
             {/* Navigation */}
-            <CarouselPrevious className="relative  bg-pink text-white shadow-sm size-[50px] rounded-full">
+            <CarouselPrevious className="relative  bg-pink text-white shadow-sm size-[50px] rounded-full disabled:bg-[#E8EDF2] disabled:text-brand-black-500">
               <ChevronLeft className="h-4 w-4" />
             </CarouselPrevious>
 
-            <CarouselNext className="relative bg-pink text-white shadow-sm size-[50px] rounded-full">
+            <CarouselNext className="relative bg-pink text-white shadow-sm size-[50px] rounded-full disabled:bg-[#E8EDF2] disabled:text-brand-black-500">
               <ChevronRight className="h-4 w-4" />
             </CarouselNext>
           </div>

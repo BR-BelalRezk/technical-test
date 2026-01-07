@@ -102,3 +102,11 @@ export const productData = [
     isInCart: false,
   },
 ];
+
+export const ratingsData = [
+  { stars: 5, percentage: 67 },
+  { stars: 4, percentage: 15 },
+  { stars: 3, percentage: 6 },
+  { stars: 2, percentage: 3 },
+  { stars: 1, percentage: 9 },
+];

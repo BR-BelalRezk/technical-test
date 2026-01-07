@@ -6,6 +6,8 @@
 @theme {
   --color-pink: #be968e;
   --color-brand-white: #fefefe;
+  --color-brand-black-500: #020202;
+  --color-brand-black-200: #8a8a8a;
 }
 
 @theme inline {

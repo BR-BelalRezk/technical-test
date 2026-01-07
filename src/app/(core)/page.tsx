@@ -1,6 +1,5 @@
-import { getAuthCookie } from "@/services/actions";
+import ProductID from "@/components/pages/product-id";
 
 export default async function Home() {
-  console.log(await getAuthCookie());
-  return <div>Home</div>;
+  return <ProductID />;
 }

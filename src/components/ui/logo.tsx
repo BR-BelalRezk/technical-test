@@ -9,8 +9,8 @@ export default function Logo() {
         alt="logo"
         priority
         quality={100}
-        width={100}
-        height={100}
+        width={66}
+        height={51}
       />
     </figure>
   );
